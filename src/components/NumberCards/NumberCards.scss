@@ -1,0 +1,20 @@
+.number-cards {
+  display: flex;
+  align-items: flex-end;
+  padding: 24px 0;
+  &__title {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    color: #767E94;
+  }
+
+  &__number {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #767E94;
+    margin-left: 5px;
+  }
+}
